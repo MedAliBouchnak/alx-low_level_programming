@@ -6,13 +6,16 @@
  *
  * Return: the length of the string
  */
-
 int _strlen(char *s)
 {
-	int count;
+	int i;
 
-	for (count = 0; s[i] != '\0' ; s++)
-		++count;
+	i = 0;
 
-	return (count);
+	while (s[i] != '\0')
+	{
+		i++;
+	}
+
+	return (i);
 }
