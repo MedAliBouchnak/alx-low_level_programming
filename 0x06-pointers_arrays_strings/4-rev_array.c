@@ -9,12 +9,13 @@
 
 void print_array(int *a, int n)
 {
-	int i, j, t;
+	int i;
+	int t;
 
-	for (i = 0, j = (n - 1); i < j; i++, j--)
+	for (i = 0; i < n--; i++)
 	{
 		t = a[i];
-		a[i] = a[j];
-		a[j] = t;
+		a[i] = a[n];
+		a[n] = t;
 	}
 }
