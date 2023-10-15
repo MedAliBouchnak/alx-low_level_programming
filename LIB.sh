@@ -1,0 +1,20 @@
+#!/bin/bash
+find ./ -name 0-isupper.c -exec cp {} 0x09-static_libraries \;
+find ./ -name 0-memset.c -exec cp {} 0x09-static_libraries \;
+find ./ -name 0-strcat.c -exec cp {} 0x09-static_libraries \;
+find ./ -name 1-isdigit.c -exec cp {} 0x09-static_libraries \;
+find ./ -name 1-memcpy.c -exec cp {} 0x09-static_libraries \;
+find ./ -name 1-strncat.c -exec cp {} 0x09-static_libraries \;
+find ./ -name 100-atoi.c -exec cp {} 0x09-static_libraries \;
+find ./ -name 2-strchr.c -exec cp {} 0x09-static_libraries \;
+find ./ -name 2-strlen.c -exec cp {} 0x09-static_libraries \;
+find ./ -name 2-strncpy.c -exec cp {} 0x09-static_libraries \;
+find ./ -name 3-islower.c -exec cp {} 0x09-static_libraries \;
+find ./ -name 3-puts.c -exec cp {} 0x09-static_libraries \;
+find ./ -name 3-strcmp.c -exec cp {} 0x09-static_libraries \;
+find ./ -name 3-strspn.c -exec cp {} 0x09-static_libraries \;
+find ./ -name 4-isalpha.c -exec cp {} 0x09-static_libraries \;
+find ./ -name 4-strpbrk.c -exec cp {} 0x09-static_libraries \;
+find ./ -name 5-strstr.c -exec cp {} 0x09-static_libraries \;
+find ./ -name 6-abs.c -exec cp {} 0x09-static_libraries \;
+find ./ -name 9-strcpy.c -exec cp {} 0x09-static_libraries \;
