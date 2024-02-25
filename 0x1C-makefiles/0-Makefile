@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 all: 
 	gcc main.c holberton.c -o holberton
+=======
+all: main.c school.c 
+	gcc main.c school.c -o school
+>>>>>>> 3c6fbd5 (0x1c)
